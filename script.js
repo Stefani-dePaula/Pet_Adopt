@@ -34,7 +34,9 @@ for (let i = 0; i < pets.length; i++) {
     miniatura.addEventListener("click", () => { 
         //troca o nome h1 pelo nome do pet clicado
         nome.textContent = pet.querySelector("h2").textContent; 
+        // Troca a descrição pela descrição do pet clicado
     descricao.textContent = pet.querySelector(".descricao").textContent;
+    // Troca a imagem pela imagem do pet clicado
     fotoGrande.src = miniatura.src;
     })
 
